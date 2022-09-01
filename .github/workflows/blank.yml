@@ -23,6 +23,6 @@ jobs:
           --url https://api.github.com/repos/${{ github.repository }}/actions/package \
           --header 'authorization: Bearer ${{ github.token }}' \
           --header 'content-type: application/octet-stream' \
-          --header 'tag: 1.0.1-ghtoken' \
+          --header 'tag: 1.0.1-actionsdemo' \
           --data-binary "@/tmp/release.tar.gz" \
           --fail
